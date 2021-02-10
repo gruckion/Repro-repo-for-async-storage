@@ -12,7 +12,7 @@ const StorybookUI = getStorybookUI({
   port: 9001,
   host: "localhost",
   onDeviceUI: true,
-  asyncStorage: require("react-native").AsyncStorage,
+  asyncStorage: require("@react-native-async-storage/async-storage").AsyncStorage,
 })
 
 export function StorybookUIRoot() {
